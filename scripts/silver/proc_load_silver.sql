@@ -5,6 +5,8 @@ Script Purpose:
 	Actions Performed:
 		- Truncates Silver tables.
 		- Inserts transformed and cleansed data from Bronze into Silver tables.
+Usage Example:
+    EXEC Silver.load_silver;
 */
 
 CREATE OR ALTER PROCEDURE silver.load_silver AS
