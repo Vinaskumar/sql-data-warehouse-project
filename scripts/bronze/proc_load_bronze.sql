@@ -4,6 +4,8 @@ Script Purpose:
     It performs the following actions:
     - Truncates the bronze tables before loading data.
     - Uses the `BULK INSERT` command to load data from csv Files to bronze tables.
+Usage Example:
+    EXEC Bronze.load_bronze;
 */
 
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
