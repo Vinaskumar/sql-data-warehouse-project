@@ -23,14 +23,6 @@ These insights empower stakeholders with **key business metrics**, enabling **st
 
 # 🚀 Project Requirements
 
-## 🏗️ Data Architecture  
-The data architecture for this project follows the **Medallion Architecture** with Bronze, Silver, and Gold layers:
-
-- **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV files into a SQL Server database.  
-- **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.  
-- **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.  
-
----
 
 ## 🛠️ Building the Data Warehouse (Data Engineering)  
 
@@ -56,5 +48,14 @@ Develop SQL-based analytics to deliver detailed insights into:
 - **Sales Trends**  
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
+
+## 🏗️ Data Architecture  
+The data architecture for this project follows the **Medallion Architecture** with Bronze, Silver, and Gold layers:
+
+- **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV files into a SQL Server database.  
+- **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.  
+- **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.  
+
+---
 
 
